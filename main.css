@@ -17,6 +17,7 @@ body {
 a {
     color: #009ad2;
     text-decoration: none;
+    margin: 0px auto;
 }
 
 ul {
@@ -886,8 +887,10 @@ strong {
 
 .resize_fit_center {
     max-width:100%;
-    max-height:100%;
     vertical-align: middle;
+    margin: 20px auto;
+    display: inline;
+    height: auto;
 }
 
 .filter-black {
