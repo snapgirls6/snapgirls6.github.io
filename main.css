@@ -424,7 +424,7 @@ strong {
 .content {
     position: relative;
     margin-top: 13vw;
-    min-height: calc(100vh - 13vw);
+    min-height: 100vh;
 }
 
 .content2 {
@@ -433,6 +433,10 @@ strong {
     margin-bottom: 13vw;
     height: calc(100vh - 26vw);
     overflow-y: scroll;
+}
+
+#belowcontent {
+  background: cornflowerblue;
 }
 
 .position-center {
